@@ -26,7 +26,14 @@ function Gallery() {
 
   if (response.isError) {
     return (
-      <section className="images-container">
+      <section
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '80vh',
+        }}
+      >
         <h4>There was an error...</h4>
       </section>
     );
@@ -35,7 +42,15 @@ function Gallery() {
   const results = response.data.results;
   if (results.length < 1) {
     return (
-      <section className="images-container">
+      <section
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '80vh',
+        }}
+        className="images-container"
+      >
         <h4>No results found...</h4>
       </section>
     );
