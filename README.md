@@ -1,6 +1,6 @@
 ## Live 
 
-(https://unsplash-gallery-search.netlify.app/)
+[Unsplash gallery](https://unsplash-gallery-search.netlify.app/)
 
 ## Steps
 
