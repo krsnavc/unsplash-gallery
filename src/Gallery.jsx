@@ -22,7 +22,7 @@ function Gallery() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          height: '70vh',
+          height: '80vh',
         }} className="images-container">
         <div className="loading" style={{ marginTop: '4rem' }}></div>
       </section>
