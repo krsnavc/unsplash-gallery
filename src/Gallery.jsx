@@ -18,15 +18,23 @@ function Gallery() {
 
   if (response.isLoading) {
     return (
+<<<<<<< HEAD
       <section
         style={{
+=======
+      <section style={{
+>>>>>>> 7688d419e87a47b230a05b5b4164304eb2d511d1
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
           height: '80vh',
+<<<<<<< HEAD
         }}
         className="images-container"
       >
+=======
+        }} className="images-container">
+>>>>>>> 7688d419e87a47b230a05b5b4164304eb2d511d1
         <div className="loading" style={{ marginTop: '4rem' }}></div>
       </section>
     );
