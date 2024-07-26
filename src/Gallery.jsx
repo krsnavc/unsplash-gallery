@@ -18,7 +18,15 @@ function Gallery() {
 
   if (response.isLoading) {
     return (
-      <section className="images-container">
+      <section
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '80vh',
+        }}
+        className="images-container"
+      >
         <div className="loading" style={{ marginTop: '4rem' }}></div>
       </section>
     );

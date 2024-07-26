@@ -81,6 +81,21 @@ html {
   --backgroundColor: var(--dark-mode-bg-color);
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: var(--backgroundColor);
+  border-top: 1px solid #ccc;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--textColor); /* Dark grey text, adjust as needed */
+}
+
 body {
   background: var(--backgroundColor);
   color: var(--textColor);
@@ -388,19 +403,4 @@ Gallery
   .image-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60px; /* Adjust as needed */
-  background-color: #f1f1f1; /* Light grey background, adjust as needed */
-  border-top: 1px solid #ccc; /* Light grey border at the top, adjust as needed */
-}
-
-.footer p {
-  margin: 0;
-  font-size: 16px;
-  color: #333; /* Dark grey text, adjust as needed */
 }
