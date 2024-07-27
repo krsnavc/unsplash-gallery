@@ -8,6 +8,7 @@ function SearchForm() {
     const searchValue = e.target.search.value;
     if (!searchValue) {
       toast.error('Please enter a search value');
+      return;
     }
     setSearchTerm(searchValue);
   };
